@@ -122,11 +122,6 @@ def find_samples( dir ):
     records = [str.split(str(i.name),'.')[0] for i in dir.iterdir()]
     filenames = ['_'.join(str.split(i, '_')[:3]) for i in records]
     filenames = list(set(filenames))
-    # Remove Poorly stained images
-    rm_list = ['mcf7_day2_e','mcf7_day5_b','mcf7_day5_d',
-               'mcf7_day7_a','mcf7_day7_d','mcf7_day7_f']
-    for i in rm_list:
-        filenames.remove(i)
     return list(set(filenames))
 
 def training_split( dir, filenames ):
