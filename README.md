@@ -48,5 +48,7 @@ Hyperparameters and usage help can be found with:
 python main.py -h
 ```
 
+Pretrained models wegihts are also available at <https://osf.io/g9xv8/>.
+
 ### References
 [1] Khoshdeli, M., Winkelmaier, G., & Parvin, B. (2019). Deep fusion of contextual and object-based representations for delineation of multiple nuclear phenotypes. Bioinformatics, 35(22), 4860-4861.
