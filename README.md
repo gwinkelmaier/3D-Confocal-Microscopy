@@ -6,7 +6,7 @@ Organization of organoid models imaged in 3D with confocal microscopy.
 ## Install
 To recreate the virtual environment in anaconda:
 
-'''
+'''bash
 conda env create -f anaconda.yml
 '''
 
