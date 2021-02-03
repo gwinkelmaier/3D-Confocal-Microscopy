@@ -1,8 +1,6 @@
 # 3D-confocal-microscopy
 Organization of organoid models imaged in 3D with confocal microscopy.
 
-## Introduction
-
 ## Installation
 ### Virtual Environment
 1) Clone this repository
@@ -51,4 +49,4 @@ python main.py -h
 ```
 
 ### References
-[1] Khoshdeli, Mina, Garrett Winkelmaier, and Bahram Parvin. "Deep fusion of contextual and object-based representations for delineation of multiple nuclear phenotypes." Bioinformatics 35.22 (2019): 4860-4861.
+[1] Khoshdeli, M., Winkelmaier, G., & Parvin, B. (2019). Deep fusion of contextual and object-based representations for delineation of multiple nuclear phenotypes. Bioinformatics, 35(22), 4860-4861.
