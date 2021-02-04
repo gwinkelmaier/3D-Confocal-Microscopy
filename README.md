@@ -50,5 +50,15 @@ python main.py -h
 
 Pretrained models wegihts are also available at <https://osf.io/g9xv8/>.
 
+## Demo Inference
+Download the model and sample image ('demo-sample.tif') from <https://osf.io/g9xv8/> and place in the inference directory.
+
+Running the following command will transform all tif images in the working directory to a TFRecord, make a prediction, and save
+the output as a .mat file.
+```
+python main.py $PWD
+```
+
+
 ### References
 [1] Khoshdeli, M., Winkelmaier, G., & Parvin, B. (2019). Deep fusion of contextual and object-based representations for delineation of multiple nuclear phenotypes. Bioinformatics, 35(22), 4860-4861.
